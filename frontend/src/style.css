@@ -1,0 +1,20 @@
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row; /* Para mostrar los elementos en una fila */
+    list-style-type: none; /* Para quitar los puntos de lista */
+    padding: 0; /* Para quitar el padding predeterminado de la lista */
+  }
+  
+  .nav-item {
+    margin-right: 10px; /* Espacio entre los elementos */
+    color: #ffffff;
+  }
+  
+  .nav-item.active {
+    background-color: #343a40; /* Color de fondo oscuro */
+    color: #ffffff; /* Texto blanco para contrastar con el fondo oscuro */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px 10px; /* Espaciado interno para hacer que el elemento sea más visible */
+    font-weight: bold; /* Texto en negrita para resaltar */
+  }
